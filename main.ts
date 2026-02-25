@@ -8,12 +8,12 @@
 // The Variable For Temperature
 let currentTemperature: number
 
-// Preparation
+// Preparation For The Task
 basic.clearScreen()
 basic.showIcon(IconNames.Happy)
 basic.pause(500)
 
-// The Procedure
+// The Procedure Of Current Temperature
 input.onButtonPressed(Button.A, function () {
   currentTemperature = input.temperature()
   basic.showString('The temperature is ' + currentTemperature)
