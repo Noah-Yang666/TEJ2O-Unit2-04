@@ -1,7 +1,7 @@
 """
 Created by: Noah
 Created on: Feb 2026
-This module is a Micro:bit MicroPython program
+This module is a Micro:bit MicroPython program that tells the current temperature
 """
 
 from microbit import *
